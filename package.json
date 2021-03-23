@@ -1,0 +1,38 @@
+{
+  "name": "webpack-redundancy-search",
+  "version": "1.0.0",
+  "description": "A Webpack plugin to find and report unused modules in your application source",
+  "main": "plugin.js",
+  "engines": {
+    "node": ">=7.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singlehopllc/unused-module-webpack-plugin.git"
+  },
+  "dependencies": {
+    "fs-readdir-recursive": "^1.1.0",
+    "lodash.isempty": "^4.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-webpack": "^1.2.5",
+    "webpack": "^4.0.0"
+  },
+  "peerDependencies": {
+    "webpack": "^4.0.0"
+  },
+  "keywords": [
+    "webpack",
+    "module",
+    "unused",
+    "redundant",
+    "redundancy",
+    "react"
+  ],
+  "bugs": {
+    "url": "https://github.com/singlehopllc/unused-module-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/singlehopllc/unused-module-webpack-plugin#readme"
+}
