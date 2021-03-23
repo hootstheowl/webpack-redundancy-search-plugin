@@ -1,5 +1,5 @@
 {
-  "name": "webpack-redundancy-search",
+  "name": "webpack-redundancy-search-plugin",
   "version": "1.0.0",
   "description": "A Webpack plugin to find and report unused modules in your application source",
   "main": "plugin.js",
